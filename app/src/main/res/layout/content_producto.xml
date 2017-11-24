@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.catv.proyectomovil.Producto"
+    tools:showIn="@layout/activity_producto">
+
+
+    <EditText
+        android:id="@+id/etCodigo"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_x="162dp"
+        android:layout_y="55dp" />
+
+    <EditText
+        android:id="@+id/etPrecioMin"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_x="161dp"
+        android:layout_y="169dp" />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_x="164dp"
+        android:layout_y="108dp" />
+
+
+    <EditText
+        android:id="@+id/etPrecioMax"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_x="162dp"
+        android:layout_y="228dp" />
+
+    <EditText
+        android:id="@+id/etCantidad"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_x="163dp"
+        android:layout_y="286dp" />
+
+
+    <EditText
+        android:id="@+id/etBodega"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_x="163dp"
+        android:layout_y="342dp" />
+
+
+    <Button
+        android:id="@+id/btGuardar"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_x="94dp"
+        android:layout_y="421dp"
+        android:text="Guardar" />
+
+
+    <Button
+        android:id="@+id/btSalir"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_x="224dp"
+        android:layout_y="422dp"
+        android:text="Salir" />
+
+
+</RelativeLayout>

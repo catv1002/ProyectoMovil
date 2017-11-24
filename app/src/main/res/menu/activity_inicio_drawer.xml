@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mapa"
+            android:icon="@drawable/ic_map"
+            android:title="Mapa" />
+        <item
+            android:id="@+id/nav_cliente"
+            android:icon="@drawable/ic_user"
+            android:title="Cliente" />
+        <item
+            android:id="@+id/nav_producto"
+            android:icon="@drawable/ic_box"
+            android:title="Productos" />
+        <item
+            android:id="@+id/nav_buscar"
+            android:icon="@mipmap/ic_qr"
+            android:title="Buscar producto" />
+    </group>
+
+</menu>
