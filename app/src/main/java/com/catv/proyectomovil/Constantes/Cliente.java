@@ -6,4 +6,7 @@ package com.catv.proyectomovil.Constantes;
 
 public class Cliente extends com.catv.proyectomovil.Modelo.Cliente {
     public static String direccion;
+
+
+
 }
